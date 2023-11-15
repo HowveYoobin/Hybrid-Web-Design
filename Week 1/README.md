@@ -36,7 +36,7 @@ STATUS: Note
     - 네트워크의 최하위 레벨로써 ****************기간망****************이라고도 함.
     - 많은 LAN이나 WAN을 서로 연결하여 주는 초고속 망임
 
-![Untitled](Untitled 1.png)
+![Untitled](Untitled\ 1.png)
 
 ## 패킷 교환 방식
 
