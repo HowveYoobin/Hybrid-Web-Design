@@ -33,7 +33,7 @@ e.g. 사람과 사람 사이의 약속, Connection Request → Connection respon
 
 - 큰 용량의 정보를 작은 단위의 패킷으로 나누어 전송하는 방법
 
-![Untitled](%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20&%20AWS%E1%84%8B%E1%85%AA%20educate%20%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20&%20AWS%20EC2%20%20cfa50da2a53c48eea026fd68961731f8/Untitled.png)
+![Untitled](Untitled.png)
 
 ### 프로토콜의 종류 - TCP
 
@@ -41,7 +41,7 @@ e.g. 사람과 사람 사이의 약속, Connection Request → Connection respon
 - IP (Internet Protocol): 패킷을 목적지까지 보내는 규칙을 정의한 프로토콜, 절대 주소라고도 하며 숫자와 ‘.’로 구성됨 (유일한 숫자를 가지게 됨)
 - 송신자가 데이터를 보내면 데이터는 패킷으로 나눠져 TCP로 전달 → TCP 계층은 패킷의 주소와 내용을 IP로 전달하는 역할 → IP는 전달 받은 패킷을 목적지까지 전달하는 역할 → 수신자의 IP 계층은 패킷을 수신 후 TCP 계층으로 전달 → 수신자의 TCP는 패킷을 재정렬하여 수신자에게 전달
 
-![Untitled](%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20&%20AWS%E1%84%8B%E1%85%AA%20educate%20%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20&%20AWS%20EC2%20%20cfa50da2a53c48eea026fd68961731f8/Untitled%201.png)
+![Untitled](Untitled1.png)
 
 ## 웹의 정의와 구조
 
@@ -60,7 +60,7 @@ e.g. 사람과 사람 사이의 약속, Connection Request → Connection respon
     - DNS Server: 원하는 서버의 IP 주소로 변환
     - 서버: 하드웨어 → 운영체제 → 웹 서버 →index.html 파일을 찾아 다시 클라이언트에게 전송, 다시 사용자가 볼 수 있도록 웹 브라우저에 출력
     
-    ![Untitled](%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20&%20AWS%E1%84%8B%E1%85%AA%20educate%20%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20&%20AWS%20EC2%20%20cfa50da2a53c48eea026fd68961731f8/Untitled%202.png)
+    ![Untitled](Untitled2.png)
     
 
 ### 웹의 동작
