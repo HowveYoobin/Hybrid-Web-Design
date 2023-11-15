@@ -31,7 +31,7 @@ STATUS: Note
 	<title>Hello World</title>
 	</head> 
 	<body>
-		<h1>Hello World<h1/>
+		<h1>Hello World</h1>
 		<p>안녕하세요! HTML5</p>
 	</body>
 </html>
@@ -142,7 +142,7 @@ e.g. <B><I><U> HTML부터 웹앱까지 </U></I></B>
     <font color = "16진수 RGB값">text</font>
     ```
     
-    ![Untitled](1%E1%84%92%E1%85%AC%E1%84%8E%E1%85%A1%20HTML5%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%202%E1%84%92%E1%85%AC%E1%84%8E%E1%85%A1%20HTML%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A2%E1%84%80%E1%85%B3%203%E1%84%92%E1%85%AC%E1%84%8E%E1%85%A1%20Table,%20432b31db72c04eaab8ca10f5c5c0c954/Untitled.png)
+    ![Untitled](Untitled.png)
     
 - 텍스트 글씨체 변경
     
