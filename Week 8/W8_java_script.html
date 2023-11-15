@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head><title>7-2</title></head>
+    <body>
+        <p id = 'text' class="'context"></p>
+        <script>
+            // element 1  ~ 3 이 모두 같은 태그를 검색하고 있으므로 같은 결과가 3번 출력될 것임
+            var element1 = document.getElementById('text');
+            var element2 = document.getElementsByTagName('p');
+            var element3 = document.getElementsByClassName('content');
+            
+            // 프로그램 언어에서 collection은 배열과 같이 여러 개의 요소를 한꺼번에 저장하고 있는 타입을 나타냄
+            console.log(element1);
+            console.log(element2);
+            console.log(element3);
+            
+        </script>
+    </body>
+</html>

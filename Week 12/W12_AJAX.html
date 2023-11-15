@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        내용을 추가해 보겠습니다.
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            $.ajax('data.txt')
+                .done(function(data) {
+                    // 성공시 실행할 코드
+                    console.log(data);
+                })
+                .fail(function(error) {
+                    // 실패 시 실행할 코드
+                    console.log('에러발생!');
+                })
+                .always(function() {
+                    // 항상 실행할 코드
+                    console.log("ajax 호출이 완료되면 실행됩니다.")
+                });
+
+                console.log("AJAX 호출은 비동기 방식입니다.")
+        </script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+var year = 365
+var day = 24
+var hour = 60
+var min = 60
+var sec = year * day * hour * min
+console.log(sec)

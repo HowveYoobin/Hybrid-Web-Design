@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head><title>8-1</title></head>
+    <body>
+        <p id = "text"> 쿠폰번호: 123456</p>
+        <script>
+            var element = document.getElementById('text');
+            // 3초 뒤 쿠폰번호 삭제
+            setTimeout(function() {
+                element.innerText = '삭제됨';
+            }, 3000);
+        </script>
+    </body>
+</html>

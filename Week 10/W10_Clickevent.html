@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <button id = 'button'>클릭</button>
+    <p id = 'count'> 0회 클릭</p>
+    <script>
+        var button = document.getElementById('button');
+        var element = document.getElementById('count');
+
+        var count = 0;
+        button.addEventListener('click', function() {
+            count++;
+            element.innerText = count + '회 클릭';
+        })
+    </script>
+</body>

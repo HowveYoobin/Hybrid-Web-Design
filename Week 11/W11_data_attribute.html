@@ -1,0 +1,32 @@
+<html>
+    <head></head>
+    <body>
+        
+        <ul></ul>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            var students = [
+                { name: "김군오", id: "219xxx"},
+                { name: "홍길동", id: "210xxx"}
+            ];
+            // ul 태그 선택
+            var ul = $('ul');
+            // for 반복문을 이용해 학생 목록 배열에서 학생을 하나씩 꺼낸다.
+            for (let student of students) {
+                // 학생 이름으로 li 태그 만들기
+                var li = $('<li>' + student.name + '</li>');
+                // data 함수를 이용해 id키에 학생의 학번 저장하기
+                li.data('id', student.id);
+                // li 태그에 클릭 이벤트 리스너 등록
+                li.click(function(event) {
+                    var el = $(event.target);
+                    // data 함수에 id 키를 전달하여 학생의 학번을 alert 다이얼로그에 띄우기
+                    alert(el.data('id'));
+                });
+                // 지금까지 만든 li 엘리먼트를 ul 태그에 붙여주기
+                ul.append(li);
+            }
+        </script>
+    </body>
+</html>

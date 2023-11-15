@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head><title>7-2</title></head>
+    <body>
+        <p id = 'text' class="'context"></p>
+        <script>
+            // getElementById를 이용해 <p> 태그의 id인 'text' 전달해 선택하여 element 변수에 저장
+            var element = document.getElementById('text');
+            // 사용자에게 이름을 입력 받기
+            var name= prompt('이름을 입력하세요.');
+            // 인사메시지를 innertext에 저장
+            element.innerText = name + '님, 안녕하세요.';
+            
+        </script>
+    </body>
+</html>
