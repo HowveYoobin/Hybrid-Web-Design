@@ -1,0 +1,14 @@
+{
+  "name": "week-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "W13_index.js",
+  "scripts": {
+    "start": "node W13_index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
