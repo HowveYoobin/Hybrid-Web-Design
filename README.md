@@ -15,5 +15,5 @@ Notes & practices from 2023-3 Hybrid Web Design Class
 [WEEK 11. 1회차 jQuery 소개 2회차 jQuery 응용 1 3회차 jQuery 응용 2](https://how-have-yoobin.notion.site/1-jQuery-2-jQuery-1-3-jQuery-2-49328f51a2c348749466c75304997094?pvs=4)  
 [WEEK 12. 1회차 Ajax 2회차 OpenAPI 3회차 NodeJS](https://how-have-yoobin.notion.site/1-Ajax-2-OpenAPI-3-NodeJS-ff06880d0c164cb6811c1689755db4dd?pvs=4)  
 [WEEK 13. 1회차 NPM과 Express 모듈 2회차 RESTful API 3회차 도서관리 프로그램](https://how-have-yoobin.notion.site/1-NPM-Express-2-RESTful-API-3-3596e83e289942879dd86b976c636742?pvs=4)  
-[WEEK 14. 1회차 Todo List 프로그램 만들기 2회차 동시통역 채팅 프로그램 만들기 3회차 코도바 소개 및 설치]  
-[WEEEK 15. 1회차 코도바 플러그인 2회차 코도바 Todo List]  
+[WEEK 14. 1회차 Todo List 프로그램 만들기 2회차 동시통역 채팅 프로그램 만들기 3회차 코도바 소개 및 설치](https://how-have-yoobin.notion.site/1-Todo-List-2-3-b35bf12084574d1e9546a7d90fb376e5?pvs=4)  
+[WEEEK 15. 1회차 코도바 플러그인 2회차 코도바 Todo List](https://how-have-yoobin.notion.site/1-2-Todo-List-0464185d32c546dcae779bc0022078e9?pvs=4)  
