@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 // to do list를 저장할 변수
-var todos = {"자바스크립트 공부하기": true};
+var todos = [];
 
 app.use(express.json());
 app.use(express.static("public_1"));
